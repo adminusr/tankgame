@@ -1,7 +1,7 @@
 var WIDTH = 1100;
 var HEIGHT = 580;
 // This IP is hardcoded to my server, replace with your own
-var socket = io.connect('http://tank-tank.7e14.starter-us-west-2.openshiftapps.com');
+var socket = io.connect('http://tankgame-tankgame.7e14.starter-us-west-2.openshiftapps.com');
 var game = new Game('#arena', WIDTH, HEIGHT, socket);
 var selectedTank = 1;
 var tankName = '';
